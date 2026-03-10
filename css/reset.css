@@ -33,9 +33,11 @@ ul, ol {
 /* Anchor defaults */
 a {
   text-decoration: none;
-  color: inherit;
 }
 
+ul,ol{
+  list-style: none;
+}
 /* Make images easier to work with */
 img, picture {
   max-width: 100%;
